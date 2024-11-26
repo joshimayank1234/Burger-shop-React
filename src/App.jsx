@@ -69,7 +69,7 @@ function App() {
         <NavBar/>  
 
           <Routes>
-              <Route path='' element={<Home/>}/>
+              <Route path='/' element={<Home/>}/>
               <Route path='/Products' element={<Products items={items} setIndex={setIndex}/>}/>
               <Route path='/ProductsDetail' element={<ProductsDetail index={index} items={items}/>}/>
           </Routes>
