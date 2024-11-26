@@ -1,0 +1,43 @@
+.itemsContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 2rem;
+    column-gap:2rem ;
+    row-gap: 2rem;
+    background:linear-gradient(white,orange,black) ;
+}
+.MainCard{
+    min-width: 350px;
+    max-width: 400px;
+    flex: 1;
+    box-shadow: 5px 5px 10px gray;
+    border-radius: 20px;
+    background:linear-gradient(orangered,black);
+    color: white;
+}
+
+.MainCard img{
+    height: 60%;
+    width: 100%;
+    object-fit: cover;
+}
+.MainCard h2{
+    font-size: 2.5rem;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+}
+.MainCard h3{
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+}
+.MainCard button{
+    padding: 0.7rem 2rem;
+    border: none;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+    background-color: orangered;
+    color: aliceblue;
+    border-radius: 20px;
+}
