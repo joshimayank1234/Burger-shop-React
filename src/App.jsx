@@ -1,4 +1,4 @@
-import { BrowserRouter, Route,Routes } from 'react-router-dom'
+import { HashRouter, Route,Routes } from 'react-router-dom'
 import { useState } from 'react'
 import './App.css'
 import NavBar from './Components/NavBar'
@@ -65,7 +65,7 @@ function App() {
 
   return (
     <div>
-      <BrowserRouter>
+      <HashRouter>
         <NavBar/>  
 
           <Routes>
@@ -75,7 +75,7 @@ function App() {
           </Routes>
 
           <Footer/>
-      </BrowserRouter>
+      </HashRouter>
     </div>
   )
 }
